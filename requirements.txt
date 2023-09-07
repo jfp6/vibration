@@ -1,4 +1,4 @@
-math
-numpy
 matplotlib
 pandas
+math
+numpy
