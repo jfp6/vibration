@@ -2,7 +2,7 @@
 import math
 import numpy as np
 import matplotlib.pyplot as plt
-pi = math.pi
+pi = numpy.pi
 import streamlit as st
 
 # maximum acceleration
