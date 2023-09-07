@@ -1,17 +1,8 @@
 
 import math
 import numpy as np
-import os, sys
 import matplotlib.pyplot as plt
-from pint import UnitRegistry
-ur = UnitRegistry()
-ur_ = ur.Quantity
 pi = math.pi
-
-import numpy as np
-from scipy.integrate import odeint
-import matplotlib.pyplot as plt
-from scipy.fft import fft
 import streamlit as st
 
 # maximum acceleration
