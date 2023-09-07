@@ -2,7 +2,7 @@
 import math
 import numpy as np
 import matplotlib.pyplot as plt
-pi = numpy.pi
+pi = np.pi
 import streamlit as st
 
 # maximum acceleration
@@ -43,7 +43,7 @@ print(X_a,omega/p,phi)
 y = a*np.sin(t*omega)
 x = X_a*a*np.sin(omega*t - phi)
 print('max x',max(x))
-"""
+
 font = {'family' : 'sans-serif',
 'weight' : 'normal',
 'size'   : 13}
@@ -82,4 +82,4 @@ plt.grid()
 plt.legend(loc='best')
 
 st.pyplot(fig2)
-"""
+
